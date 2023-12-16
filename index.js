@@ -21,10 +21,10 @@ function render(value) {
     )} feet | ${value} feet = ${meters.toFixed(3)} meters</p>`;
     volumenEl.innerHTML = `<p>${value} liters = ${gallons.toFixed(
       3
-    )} | ${value} gallons = ${liters.toFixed(3)}</p>`;
+    )} gallons | ${value} gallons = ${liters.toFixed(3)} liters</p>`;
     massEl.innerHTML = `<p>${value} kilograms = ${pounds.toFixed(
       3
-    )} | ${value} pounds = ${kilograms.toFixed(3)}</p>`;
+    )} pounds | ${value} pounds = ${kilograms.toFixed(3)} kilograms</p>`;
   }
 }
 
